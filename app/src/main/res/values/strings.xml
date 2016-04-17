@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">JsonPars</string>
+    <string name="id">id:</string>
+    <string name="name">name:</string>
+    <string name="username">username:</string>
+    <string name="email">email:</string>
+    <string name="street">street:</string>
+    <string name="address">address:</string>
+    <string name="suite">suite:</string>
+    <string name="city">city:</string>
+    <string name="geo">geo:</string>
+    <string name="company">company:</string>
+</resources>

@@ -1,7 +1,6 @@
 package com.example.miro.jsonpars.activity;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -9,7 +8,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import com.example.miro.jsonpars.ParseTask;
 import com.example.miro.jsonpars.R;
-import com.example.miro.jsonpars.constants.Constants;
 import com.example.miro.jsonpars.constants.UserConstants;
 import com.example.miro.jsonpars.listview.UserAdapter;
 import com.example.miro.jsonpars.models.User;
@@ -60,7 +58,6 @@ public class MainActivity extends AppCompatActivity implements ParseTask.UsersIn
         intent.putExtra(UserConstants.COMPANY, user.getCompany().getName());
         intent.putExtra(UserConstants.CATCHPHRASE, user.getCompany().getCatchPhrase());
         intent.putExtra(UserConstants.BS, user.getCompany().getBs());
-        //intent.putExtra(Constants.POSITION, position);
         startActivity(intent);
     }
 }

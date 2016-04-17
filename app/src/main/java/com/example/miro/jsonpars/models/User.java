@@ -1,10 +1,5 @@
 package com.example.miro.jsonpars.models;
 
-import android.os.Parcelable;
-
-import com.example.miro.jsonpars.models.Address;
-import com.example.miro.jsonpars.models.Company;
-
 public class User {
     private long id;
     private String name;

@@ -1,7 +1,6 @@
 package com.example.miro.jsonpars;
 
 import android.os.AsyncTask;
-import android.util.Log;
 import com.example.miro.jsonpars.constants.Constants;
 import com.example.miro.jsonpars.constants.UserConstants;
 import com.example.miro.jsonpars.models.Address;
@@ -63,7 +62,6 @@ public class ParseTask extends AsyncTask<Void, Void, String> {
     @Override
     protected void onPostExecute(String strJson) {
         super.onPostExecute(strJson);
-        //Log.d(Constants.LOG_TAG, strJson);// виводжу стрічку в лог
 
         String sName, sUsername, sEmail, sStreet, sSuite, sCity, sZipCode, sLat, sLng, sPhone, sWebsite, sCompanyName, sCatchPhrase, sBs;
         long lId;

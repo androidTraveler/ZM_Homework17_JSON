@@ -10,4 +10,5 @@
     <string name="city">city:</string>
     <string name="geo">geo:</string>
     <string name="company">company:</string>
+    <string name="user_info">User Info</string>
 </resources>
